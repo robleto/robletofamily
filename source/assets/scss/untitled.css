@@ -1,0 +1,722 @@
+
+
+/////////////////////////////////////////////////
+//                                             //
+//   Robleto Family 2017                       //
+//                                             //
+/////////////////////////////////////////////////
+
+
+// Variables  -------------- //
+
+$base-font-color:	#444;
+$headline-color: 	#000;
+
+
+$headline-font:		"acumin-pro-condensed", sans-serif;
+$number-font:		"times new roman", times, serif;
+$slab-serif-font: 	"chaparral-pro",serif;
+
+
+
+
+
+// Base Styling  -------------- //
+
+body {
+	font: 110% Helvetica, Arial, sans-serif;
+	background-color: #f7f7f7;
+	color: $base-font-color;
+
+	@media only screen and (min-width: 768) {
+		margin: 10px;
+	}
+	@media only screen and (min-width: 1024px) {
+		margin: 40px;
+	}
+}
+
+.wrapper {
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 1rem 3rem;
+	@media only screen and (max-width: 768px) {
+		padding: 1rem;
+	}
+}
+
+.box {
+	font-size: 100%;
+	border-bottom: solid 2px #000;
+	position: relative;
+
+	h2 { 
+		grid-area: number; 
+		margin: 0;
+		padding: 0;
+		font-family: $number-font;
+		color: $headline-color;
+ 		font-size: 500%;
+ 		align-self: start;
+ 		justify-self: start;
+	}
+	h3 { 
+		grid-area: title; 
+		margin: 0;
+		padding: 0;
+		color: $headline-color;
+		font-family: $headline-font;
+		text-transform: uppercase;
+	}
+	p { 
+		grid-area: content; 
+		margin: 0;
+		font-family: $headline-font;
+		line-height: 1.25;
+		font-size: 90%;
+	}
+	figcaption {
+		font-family: $slab-serif-font;
+		font-size: 70%;
+		line-height: 1;
+	}
+}
+
+
+// Page Grid Layout  -------------- //
+
+@supports (display:grid) {
+
+	.wrapper {
+		max-width: 1080px;
+		display: grid;
+		grid-template-columns: [full-start] 1fr [left-center] 2fr [right-center] 1fr [full-end];
+		grid-gap: 30px;
+		@media only screen and (max-width: 1024px) {
+			max-width: 1080px;			
+			grid-gap: 30px;
+		}
+		@media only screen and (max-width: 768px) {
+			display: block;
+		}
+	}
+
+	.header {
+		grid-column: full-start / full-end; 
+	}
+
+	.one {
+		grid-column: 2;
+		grid-row: 2 / 6;
+	}
+
+	.two {
+		grid-column: 1;
+		grid-row: 2 / 4;
+	}
+
+	.three {
+		grid-column: 1;
+		grid-row: 4 / 6;
+	}
+
+	.four {
+		grid-column: 1;
+		grid-row: 6 / 9;
+	}
+
+	.five {
+		grid-column: 2;
+		grid-row: 6 / 7;
+	}
+
+	.six {
+		grid-column: 2;
+		grid-row: 7 / 9;
+	}
+
+	.seven {
+		grid-column: 3;
+		grid-row: 2 / 3;
+	}
+
+	.eight {
+		grid-column: 3;
+		grid-row: 3 / 5;
+	}
+
+	.nine {
+		grid-column: 3;
+		grid-row: 5 / 8;
+	}
+
+	.ten {
+		grid-column: 3;
+		grid-row: 8 / 9;
+	}
+}
+
+
+
+
+
+// Header  -------------- //
+
+.box.header {
+	margin: 0;
+	padding: 0;
+	border-bottom: solid 7px #000;
+
+	h1 {
+		margin: 0 0 3px 0;
+		font-family: $headline-font;
+		text-transform: uppercase;
+		font-size: 550%;
+		line-height: 1.0;
+		padding-right: 0;
+		border-bottom: solid 1px #000;
+		color: $headline-color;
+
+	}
+	img {
+		position: absolute;
+		bottom: -10px;
+		right: 0;
+		height: 140px;
+		width: auto;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		h1 {
+			font-size: 500%;
+			padding-right: 0;
+		}
+	}
+	@media only screen and (max-width: 768px) {
+		h1 {
+			font-size: 400%;
+			padding-right: 200px;
+		}	
+	}
+}
+
+
+
+// One  -------------- //
+
+
+.box.one {
+	display: grid;
+	grid-gap: 0px;
+	grid-template-areas: 
+	    "image image"
+	    "number title"
+	    "number content";
+
+ 	img { 
+ 		max-width: 100%;
+ 		grid-area: image;
+ 	}
+ 	h2 {
+ 		font-size: 1800%;
+ 		float: left;
+ 		margin: 0;
+ 			line-height: 0.9;
+ 		padding: 0;
+ 		align-self: start;
+ 		justify-self: start;
+ 	}
+ 	h3 {
+ 		font-size: 300%;
+ 		text-transform: uppercase;
+ 		font-weight: 300;
+ 		font-style: italic;
+ 		font-family: "acumin-pro-semi-condensed",sans-serif;
+ 		align-self: end;
+ 		justify-self: start;
+ 	}
+ 	p {
+ 		font-family: $slab-serif-font;
+ 		font-size: 120%;
+ 		align-self: start;
+ 		justify-self: start;
+ 	}
+
+	@media only screen and (max-width: 768px) {
+	 	h2 {
+ 			font-size: 400%;
+ 			float: left;
+	 	}
+	 	p {
+	 		padding-bottom: 1rem;
+	 	}
+	}
+
+}
+
+
+
+// Two  -------------- //
+
+.box.two {
+	display: grid;
+    grid-template-columns: auto-fill minmax(120px, auto);
+	grid-gap: 5px;
+	grid-template-areas: 
+	    "number image1"
+	    "title image1"
+	    "content image1"
+	    "content image2"
+	    "content figcaption";
+
+ 	img[src*="graduating"] { 
+ 		min-width: 100px;
+ 		max-width: 100%;
+ 		grid-area: image1; 
+ 	}
+ 	img[src*="soccer"] {
+ 		max-width: 100%;
+ 		grid-area: image2; 
+ 	}
+ 	h2 {
+ 		font-size: 500%;
+ 		margin-top: 0;
+ 		align-self: start;
+ 		justify-self: start;
+ 	}
+ 	h3 {
+ 		line-height: 1;
+ 	}
+ 	p {
+ 		align-self: start;
+ 		justify-self: start;
+ 		padding-right: 180px;
+ 	}
+
+ 	img[src*="first-day"] { 
+		position: absolute;
+		bottom: 0px;
+		left: 25%;
+		height: auto;
+		width: 150px;
+	}
+	figcaption {
+ 		grid-area: figcaption; 
+ 		padding-left: 70px;
+		text-align: right;
+ 		&:before {
+ 			content: "▲";
+ 			color: #8dc53f;
+ 		}
+	}
+
+	@media only screen and (max-width: 768px) {
+		p {
+ 			padding-right: 0px;
+		}
+	 	img[src*="first-day"] { 
+			width: 200px;
+		}
+	}
+
+}
+
+
+// Three  -------------- //
+
+.box.three {
+	display: grid;
+    grid-template-columns: auto-fill minmax(120px, auto);
+	grid-gap: 5px;
+	grid-template-areas: 
+	    "image1 number"
+	    "image1 title"
+	    "image2 content"
+	    "image3 content";
+
+ 	img[src*="bridging"] { 
+ 		max-width: 100%;
+ 		grid-area: image1; 
+ 		min-width: 95px;
+ 	}
+ 	img[src*="riding"] {
+ 		max-width: 100%;
+ 		grid-area: image2; 
+ 	}
+ 	img[src*="swimming"] {
+ 		max-width: 100%;
+ 		grid-area: image3; 
+ 	}
+ 	h2 {
+ 		font-size: 500%;
+ 		margin-top: 0;
+ 		padding-left: 30px;
+ 		align-self: start;
+ 		justify-self: start;
+ 		padding-left: 60px;
+ 	}
+ 	h3 {
+ 		line-height: 1;
+ 		padding-left: 60px;
+ 	}
+ 	p {
+ 		align-self: start;
+ 		justify-self: start;
+ 		padding-left: 60px;
+ 	}
+
+ 	img[src*="climbing"] { 
+		position: absolute;
+		top: 0px;
+		left: 17%;
+		height: 100%;
+		width: auto;
+	}
+	figcaption {
+ 		grid-area: figcaption; 
+ 		max-width: 70%;
+ 		text-align: right;
+ 		&:before {
+ 			float: right;
+ 			content: "▶";
+ 			margin-left: .25rem;
+ 			color: #8dc53f;
+ 		}
+	}
+
+}
+
+
+
+
+// Four  -------------- //
+
+.box.four {
+ 	img[src*="duke"] {
+ 		max-width: 100%;
+ 		grid-area: image1; 
+ 	}
+	display: grid;
+    grid-gap: 0px;
+	grid-template-areas: 
+	    "image1 image1"
+	    "number title"
+	    "number content"
+	    "number figcaption";
+
+ 	h2 {
+ 		font-size: 800%;
+		align-self: start;
+		justify-self: start;
+ 	}
+ 	h3 {
+ 		align-self: start;
+ 		justify-self: start;
+ 	}
+ 	p {
+ 		align-self: start;
+		justify-self: start;
+		line-height: 1.3;
+		padding-bottom: 50px;
+ 	}
+ 	img[src*="note"] {
+		position: absolute;
+		bottom: 0;
+		left: -5px;
+		height: auto;
+		width: 120px;
+    	transform: rotate(-15deg);
+	}
+	figcaption {
+ 		grid-area: figcaption; 
+ 		padding-right: 5px;
+		text-align: right;
+ 		&:before {
+ 			content: "◀";
+ 			color: #8dc53f;
+ 		}
+	}
+
+}
+
+
+
+// Five  -------------- //
+
+.box.five {
+	position: relative;
+	display: grid;
+    grid-template-columns: minmax(220px, auto) auto-fill;
+	grid-gap: 5px;
+	grid-template-areas: 
+	    "number title"
+	    "number content";
+
+	img {
+		position: absolute;
+		bottom: -45px;
+		left: 0;
+		height: auto;
+		width: 220px;
+	}
+ 	h2 {
+ 		font-size: 600%;
+ 		margin-top: 0;
+ 		margin-left: 200px;
+ 		margin-right: 10px;
+ 		align-self: start;
+ 		justify-self: start;
+ 	}
+ 	h3 {
+ 		line-height: 1;
+ 		align-self: end;
+ 	}
+ 	p {
+ 		align-self: start;
+ 		justify-self: start;
+ 	}
+
+}
+
+
+
+// Six  -------------- //
+
+.box.six {
+ 	img { 
+ 		min-width: 200px;
+ 		max-width: 100%;
+ 		grid-area: image; 
+ 	}
+ 	dl {
+ 		grid-area: list;
+		margin: 0;
+		font-family: $headline-font;
+		font-size: 80%;
+ 		text-align: right;
+ 		margin-top: -10px
+ 	}
+	display: grid;
+    grid-template-columns: auto-fill 2fr;
+	grid-gap: 10px;
+	grid-template-areas: 
+	    "number image"
+	    "title image"
+	    "content image"
+	    "list image";
+
+ 	h2 {
+ 		font-size: 500%;
+ 		line-height: 0.8;
+ 		justify-self: end;
+ 	}
+ 	h3 {
+ 		justify-self: end;
+ 	}
+ 	p {
+ 		text-align: right;
+ 	}
+ 	dt {
+		border-top: 2px solid #ccc;
+		font-weight: 600;
+	}
+	dd {
+		margin: 0;
+		padding: 0 0.5em 0 0;
+ 	}
+}
+
+
+// Seven  -------------- //
+
+.box.seven {
+	display: grid;
+	grid-gap: 0px;
+	grid-template-areas: 
+	    "number title"
+	    "number content";
+
+ 	img[src*="selena"] { 
+ 		min-width: 140px;
+ 		max-width: 75%;
+ 		float: left;
+ 		position: absolute;
+ 		bottom: 0;
+ 		left: -10px;
+ 		z-index: 10;
+ 	}
+ 	h2 {
+ 		font-size: 600%;
+ 		min-width: 75px;
+ 		align-self: start;
+ 		justify-self: center;
+ 	}
+ 	h3 {
+ 	}
+ 	p {
+ 		align-self: start;
+ 		justify-self: start;
+ 		margin-bottom: 7.75rem;
+ 	}
+
+ 	img[src*="strawberry"] { 
+		position: absolute;
+		bottom: 60px;
+		left: 175px;
+		height: auto;
+		width: 70px;
+ 	}
+ 	img[src*="mango"] {
+		position: absolute;
+		bottom: 25px;
+		left: 225px;
+		height: auto;
+		width: 70px;
+ 	}
+ 	img[src*="celery"] {
+		position: absolute;
+		bottom: -40px;
+		left: 185px;
+		height: auto;
+		width: 80px;
+ 	}
+
+}
+
+
+// Eight  -------------- //
+
+.box.eight {
+	display: grid;
+	grid-gap: 0px;
+	grid-template-areas: 
+	    "image number"
+	    "image title"
+	    "image content";
+
+ 	img { 
+ 		min-width: 190px;
+ 		max-width: 100%;
+ 		margin-left: -45px;
+ 		grid-area: image; 
+ 		align-self: end;
+ 		justify-self: end;
+ 	}
+ 	h2 {
+ 		align-self: start;
+ 		justify-self: start;
+ 		line-height: 60px;
+ 	}
+ 	h3 {
+ 		line-height: 1;
+ 	}
+ 	p {
+ 		align-self: start;
+ 		justify-self: start;
+ 		padding-bottom: 10px;
+ 	}
+
+}
+
+// Nine  -------------- //
+
+.box.nine {
+	display: grid;
+    grid-template-columns: auto-fill minmax(120px, auto);
+	grid-gap: 5px;
+	grid-template-areas: 
+	    "number image1"
+	    "title image1"
+	    "content image1"
+	    "content image2"
+	    "content image3"
+	    "figcaption image3";
+
+ 	img[src*="netflix"] { 
+ 		min-width: 100px;
+ 		max-width: 100%;
+ 		grid-area: image1; 
+ 	}
+ 	img[src*="ben-and-rachel"] {
+ 		max-width: 100%;
+ 		grid-area: image2; 
+ 	}
+ 	img[src*="michelle-and-mario"] {
+ 		max-width: 100%;
+ 		grid-area: image3; 
+ 	}
+ 	h2 {
+ 		font-size: 900%;
+ 		line-height: 110px;
+ 		margin-top: 10px;
+ 		margin-right: 5px;
+ 		align-self: start;
+ 		justify-self: end;
+ 	}
+ 	h3 {
+ 		margin-right: 5px;
+ 		align-self: start;
+ 		justify-self: end;
+ 	}
+ 	p {
+ 		text-align: right;
+ 		margin-right: 5px;
+ 		align-self: start;
+ 		justify-self: end;
+ 	}
+
+ 	img[src*="greg-in-a-box"] { 
+		position: absolute;
+		bottom: -40px;
+		left: 26%;
+		height: auto;
+		width: 90px;
+	}
+	figcaption {
+ 		grid-area: figcaption; 
+ 		max-width: 70%;
+ 		&:before {
+ 			float: right;
+ 			content: "▶";
+ 			margin-left: .25rem;
+ 			color: #8dc53f;
+ 		}
+	}
+
+}
+
+
+// Ten  -------------- //
+
+.box.ten {
+	display: grid;
+	grid-gap: 0px;
+	grid-template-areas: 
+	    "image number"
+	    "image title"
+	    "image content";
+
+ 	img { 
+ 		min-width: 200px;
+ 		max-width: 120%;
+ 		margin-left: -50px;
+ 		grid-area: image; 
+ 		align-self: center;
+ 		justify-self: center;
+ 	}
+ 	h2 {
+ 		font-size: 500%;
+ 		margin-top: 0;
+ 		align-self: start;
+ 		justify-self: start;
+ 	}
+ 	h3 {
+ 		line-height: 1;
+ 	}
+ 	p {
+ 		align-self: start;
+ 		justify-self: start;
+ 	}
+
+}
+
