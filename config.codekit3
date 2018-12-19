@@ -366,12 +366,45 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/source/assets/img/_2018/bermuda.jpg": {
+		"ft": 16384,
+		"iS": 112289,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/bermuda.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/_2018/cahills.jpg": {
+		"ft": 16384,
+		"iS": 78717,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/cahills.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/source/assets/img/_2018/eagles.jpg": {
 		"ft": 16384,
 		"iS": 41761,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/assets/img/_2018/eagles.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/_2018/eiffeltower.jpg": {
+		"ft": 16384,
+		"iS": 112688,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/eiffeltower.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -388,12 +421,56 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/source/assets/img/_2018/fast-and-furious-live.jpg": {
+		"ft": 16384,
+		"iS": 139403,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/fast-and-furious-live.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/_2018/jump.jpg": {
+		"ft": 16384,
+		"iS": 84645,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/jump.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/_2018/massimo.jpg": {
+		"ft": 16384,
+		"iS": 130590,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/massimo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/source/assets/img/_2018/netflix-ceo.jpg": {
 		"ft": 16384,
 		"iS": 62310,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/assets/img/_2018/netflix-ceo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/_2018/netflix.jpg": {
+		"ft": 16384,
+		"iS": 1565666,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/netflix.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -439,6 +516,17 @@
 		"oAP": "/build/assets/img/_2018/snowflake.gif",
 		"oF": 0,
 		"opt": 1
+		},
+	"/source/assets/img/_2018/stmarks.jpg": {
+		"ft": 16384,
+		"iS": 97937,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/stmarks.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"/source/assets/img/_2018/toretto-house.jpg": {
 		"ft": 16384,

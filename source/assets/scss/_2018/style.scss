@@ -20,7 +20,7 @@ $headline-font:		"acumin-pro-extra-condensed", sans-serif;
 $number-font:		"trajan-pro-3", times, serif;
 $slab-serif-font: 	"chaparral-pro",serif;
 $sans-serif-font: 	"proxima-nova", sans-serif;
-$serif-font:		"times new roman", georgia, serif;
+$serif-font:		"minion-pro-caption", serif;
 
 
 
@@ -357,6 +357,7 @@ body {
 	display: grid;
 	grid-template-columns: [full-start] 1fr [left-center] 1fr [right-center] 1fr [full-end];
 	grid-gap: 0;
+	align-items: start;
 
 	h2 {
 	    text-align: center;
@@ -381,12 +382,12 @@ body {
 
 	.two {
 		grid-column: 1;
-		grid-row: 4 / 8;
+		grid-row: 4 / 7;
 	}
 
 	.three {
 		grid-column: 1;
-		grid-row: 8 / 11;
+		grid-row: 7 / 9;
 	}
 
 	.four {
@@ -401,7 +402,7 @@ body {
 
 	.six {
 		grid-column: 2;
-		grid-row: 6 / 11;
+		grid-row: 6 / 9;
 	}
 
 	.seven {
@@ -411,12 +412,12 @@ body {
 
 	.eight {
 		grid-column: 3;
-		grid-row: 5 / 9;
+		grid-row: 5 / 8;
 	}
 
 	.nine {
 		grid-column: 3;
-		grid-row: 9 / 11;
+		grid-row: 8 / 9;
 	}
 
 
@@ -426,7 +427,7 @@ body {
 		font-weight: 300;
 		font-style: normal;
 		font-size: 130%;
-		padding: 1rem 2rem;
+		padding: 1.5rem 2rem;
 
 		img {
 			width: 100%;
@@ -633,12 +634,13 @@ body {
 		@media only screen and (min-width: 1025px) {
 
 			justify-self: start;
-			align-self: start;
+			align-items: start;
 			display: grid;
 		    grid-template-columns: auto-fill minmax(120px, auto);
 			grid-gap: 5px;
 			grid-template-areas: 
-			    "image text";
+			    "image"
+			    "text";
 
 		 	img[src*="yuck"] { 
 		 		max-width: 100%;
@@ -648,7 +650,6 @@ body {
 		 	p {
 		 		grid-area: text; 
 		 		align-self: start;
-		 		margin: 0 0 1rem 0.5rem;
 		 	}
 		}
 	}
@@ -657,10 +658,10 @@ body {
 
 	.nine {
 		@media only screen and (min-width: 1025px) {
-			
+
 			border-bottom: none;
 			display: grid;
-		    grid-template-columns: auto-fill minmax(150px, auto);
+		    grid-template-columns: auto-fill minmax(120px, auto);
 			grid-gap: 5px;
 			grid-template-areas: 
 			    "text image";
@@ -679,8 +680,66 @@ body {
 		}
 	}
 
+}
 
 
 
+
+#by-the-numbers {
+	display: grid;
+	grid-template-columns: [full-start] 1fr [left-center] 1fr [right-center] 1fr [full-end];
+	grid-gap: 0;
+	align-items: start;
+	font-family: ff-dagny-web-pro,sans-serif;
+	font-weight: 300;
+
+	h2 {
+		@include sub-head-style;
+		padding-top: 2rem;
+		display: block;
+		text-align: center;
+		font-size: 140%;
+	}
+
+
+	.header {
+		grid-column: full-start / full-end; 
+	}
+
+	.num-travel {
+		grid-column: full-start / full-end; 
+		background-color: $bg-primary;
+		padding: 3rem;
+
+		img {
+			width: 100%;
+			max-width: 300px;
+		}
+		h3 {
+			color: $bold-primary;
+			font-family: $serif-font;
+			font-size: 1400%;
+			font-weight: 300;
+			letter-spacing: -0.5rem;
+			padding: 0;
+			margin: 0;
+		}
+
+
+		.sub-box h3 {
+			@include sub-head-style;
+			color: #444;
+			padding-top: 2rem;
+			display: block;
+			text-align: center;
+		}
+		li {
+			padding-left: 0;
+			list-style: none;
+			margin-bottom: .5rem;
+		}
+
+
+	}
 
 }
