@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,36 +7,29 @@
 		"uuidString": "335591AA-A17A-44E0-B43F-B3A9DC6D0AC4"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28905",
 "files": {
-	"\/.gitattributes": {
+	"/.gitattributes": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/.gitattributes",
+		"oAP": "/build/.gitattributes",
 		"oF": 0
 		},
-	"\/.gitignore": {
+	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/.gitignore",
+		"oAP": "/build/.gitignore",
 		"oF": 0
 		},
-	"\/build": {
+	"/build": {
 		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/build\/build",
+		"oAP": "/build/build",
 		"oF": 0
 		},
-	"\/Robleto-Family\/.gitattributes": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/Robleto-Family\/.gitattributes",
-		"oF": 0
-		},
-	"\/Robleto-Family\/README.md": {
+	"/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -45,7 +38,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/build\/Robleto-Family\/README.html",
+		"oAP": "/build/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -54,315 +47,444 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/source\/assets\/img\/bailey-and-sookie.png": {
+	"/source/assets/img/_2017/bailey-and-sookie.png": {
 		"ft": 32768,
 		"iS": 11249,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/bailey-and-sookie.png",
+		"oAP": "/build/assets/img/_2017/bailey-and-sookie.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/ben-and-rachel.jpg": {
+	"/source/assets/img/_2017/ben-and-rachel.jpg": {
 		"ft": 16384,
 		"iS": 10738,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/ben-and-rachel.jpg",
+		"oAP": "/build/assets/img/_2017/ben-and-rachel.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/celery.png": {
+	"/source/assets/img/_2017/celery.png": {
 		"ft": 32768,
 		"iS": 6339,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/celery.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/source\/assets\/img\/Christmas Card Insert.png": {
-		"ft": 32768,
-		"iS": 1060464,
-		"oA": 0,
-		"oAP": "\/build\/assets\/img\/Christmas Card Insert.png",
+		"oAP": "/build/assets/img/_2017/celery.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/daddy-foot-note.png": {
+	"/source/assets/img/_2017/Christmas Card Insert.png": {
 		"ft": 32768,
-		"iS": 14976,
+		"iS": 1060464,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/daddy-foot-note.png",
+		"oAP": "/build/assets/img/_2017/Christmas Card Insert.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/duke-greg-dean.jpg": {
+	"/source/assets/img/_2017/daddy-foot-note.png": {
+		"ft": 32768,
+		"iS": 14976,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2017/daddy-foot-note.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/assets/img/_2017/duke-greg-dean.jpg": {
 		"ft": 16384,
 		"iS": 284508,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/duke-greg-dean.jpg",
+		"oAP": "/build/assets/img/_2017/duke-greg-dean.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/fastcon_dinner.jpg": {
+	"/source/assets/img/_2017/fastcon_dinner.jpg": {
 		"ft": 16384,
 		"iS": 120610,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/fastcon_dinner.jpg",
+		"oAP": "/build/assets/img/_2017/fastcon_dinner.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/furious8-sub.png": {
+	"/source/assets/img/_2017/furious8-sub.png": {
 		"ft": 32768,
 		"iS": 50866,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/furious8-sub.png",
+		"oAP": "/build/assets/img/_2017/furious8-sub.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/GandS_logo_black.png": {
-		"ft": 32768,
-		"iS": 8613,
-		"oA": 0,
-		"oAP": "\/build\/assets\/img\/GandS_logo_black.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/source\/assets\/img\/ginelle-first-day.png": {
+	"/source/assets/img/_2017/ginelle-first-day.png": {
 		"ft": 32768,
 		"iS": 31482,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/ginelle-first-day.png",
+		"oAP": "/build/assets/img/_2017/ginelle-first-day.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/ginelle-graduating.jpg": {
+	"/source/assets/img/_2017/ginelle-graduating.jpg": {
 		"ft": 16384,
 		"iS": 12439,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/ginelle-graduating.jpg",
+		"oAP": "/build/assets/img/_2017/ginelle-graduating.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/ginelle-soccer.jpg": {
+	"/source/assets/img/_2017/ginelle-soccer.jpg": {
 		"ft": 16384,
 		"iS": 8381,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/ginelle-soccer.jpg",
+		"oAP": "/build/assets/img/_2017/ginelle-soccer.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/greg-arizona.jpg": {
+	"/source/assets/img/_2017/greg-arizona.jpg": {
 		"ft": 16384,
 		"iS": 300489,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/greg-arizona.jpg",
+		"oAP": "/build/assets/img/_2017/greg-arizona.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/greg-in-a-box.png": {
+	"/source/assets/img/_2017/greg-in-a-box.png": {
 		"ft": 32768,
 		"iS": 15602,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/greg-in-a-box.png",
+		"oAP": "/build/assets/img/_2017/greg-in-a-box.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/hawaiian-girls.jpg": {
+	"/source/assets/img/_2017/hawaiian-girls.jpg": {
 		"ft": 16384,
 		"iS": 52493,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/hawaiian-girls.jpg",
+		"oAP": "/build/assets/img/_2017/hawaiian-girls.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/hawaiian-girls.png": {
+	"/source/assets/img/_2017/hawaiian-girls.png": {
 		"ft": 32768,
 		"iS": 77720,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/hawaiian-girls.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/source\/assets\/img\/hershey-fam.png": {
-		"ft": 32768,
-		"iS": 54876,
-		"oA": 0,
-		"oAP": "\/build\/assets\/img\/hershey-fam.png",
+		"oAP": "/build/assets/img/_2017/hawaiian-girls.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/johnnyswim.jpg": {
+	"/source/assets/img/_2017/hershey-fam.png": {
+		"ft": 32768,
+		"iS": 54876,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2017/hershey-fam.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/assets/img/_2017/johnnyswim.jpg": {
 		"ft": 16384,
 		"iS": 182864,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/johnnyswim.jpg",
+		"oAP": "/build/assets/img/_2017/johnnyswim.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/kaylee-bridging.jpg": {
+	"/source/assets/img/_2017/kaylee-bridging.jpg": {
 		"ft": 16384,
 		"iS": 15036,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/kaylee-bridging.jpg",
+		"oAP": "/build/assets/img/_2017/kaylee-bridging.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/kaylee-climbing.png": {
+	"/source/assets/img/_2017/kaylee-climbing.png": {
 		"ft": 32768,
 		"iS": 21519,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/kaylee-climbing.png",
+		"oAP": "/build/assets/img/_2017/kaylee-climbing.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/kaylee-riding.jpg": {
+	"/source/assets/img/_2017/kaylee-riding.jpg": {
 		"ft": 16384,
 		"iS": 6272,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/kaylee-riding.jpg",
+		"oAP": "/build/assets/img/_2017/kaylee-riding.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/kaylee-swimming.jpg": {
+	"/source/assets/img/_2017/kaylee-swimming.jpg": {
 		"ft": 16384,
 		"iS": 22732,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/kaylee-swimming.jpg",
+		"oAP": "/build/assets/img/_2017/kaylee-swimming.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/mango.png": {
+	"/source/assets/img/_2017/mango.png": {
 		"ft": 32768,
 		"iS": 3949,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/mango.png",
+		"oAP": "/build/assets/img/_2017/mango.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/michelle-and-mario.jpg": {
+	"/source/assets/img/_2017/michelle-and-mario.jpg": {
 		"ft": 16384,
 		"iS": 11497,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/michelle-and-mario.jpg",
+		"oAP": "/build/assets/img/_2017/michelle-and-mario.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/netflix.jpg": {
+	"/source/assets/img/_2017/netflix.jpg": {
 		"ft": 16384,
 		"iS": 21112,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/netflix.jpg",
+		"oAP": "/build/assets/img/_2017/netflix.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/netflix.png": {
+	"/source/assets/img/_2017/netflix.png": {
 		"ft": 32768,
 		"iS": 42839,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/netflix.png",
+		"oAP": "/build/assets/img/_2017/netflix.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/selena-award.png": {
+	"/source/assets/img/_2017/selena-award.png": {
 		"ft": 32768,
 		"iS": 32185,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/selena-award.png",
+		"oAP": "/build/assets/img/_2017/selena-award.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/source\/assets\/img\/strawberry.png": {
+	"/source/assets/img/_2017/strawberry.png": {
 		"ft": 32768,
 		"iS": 7671,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/strawberry.png",
+		"oAP": "/build/assets/img/_2017/strawberry.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/source\/assets\/scss\/style.scss": {
+	"/source/assets/img/_2018/apple-butter.jpg": {
+		"ft": 16384,
+		"iS": 110774,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/apple-butter.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/_2018/beanies.jpg": {
+		"ft": 16384,
+		"iS": 98304,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/beanies.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/_2018/eagles.jpg": {
+		"ft": 16384,
+		"iS": 41761,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/eagles.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/_2018/family2018.jpg": {
+		"ft": 16384,
+		"iS": 465329,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/family2018.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/assets/img/_2018/netflix-ceo.jpg": {
+		"ft": 16384,
+		"iS": 62310,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/netflix-ceo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/_2018/reading-card.jpg": {
+		"ft": 16384,
+		"iS": 47896,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/reading-card.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/_2018/renn-faire.jpg": {
+		"ft": 16384,
+		"iS": 143460,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/renn-faire.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/_2018/santa.jpg": {
+		"ft": 16384,
+		"iS": 72663,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/santa.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/_2018/snowflake.gif": {
+		"ft": 4194304,
+		"iS": 1180,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/snowflake.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"/source/assets/img/_2018/toretto-house.jpg": {
+		"ft": 16384,
+		"iS": 75632,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/toretto-house.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/_2018/toretto-market.jpg": {
+		"ft": 16384,
+		"iS": 65334,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/toretto-market.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/_2018/yuck.jpg": {
+		"ft": 16384,
+		"iS": 122783,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/yuck.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/GandS_logo_black.png": {
+		"ft": 32768,
+		"iS": 8613,
+		"oA": 0,
+		"oAP": "/build/assets/img/GandS_logo_black.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/assets/scss/_2017/style.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -370,40 +492,57 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/css\/style.css",
+		"oAP": "/build/assets/scss/_2017/style.css",
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/assets\/scss\/untitled.css": {
-		"aP": 1,
+	"/source/assets/scss/_2018/style.scss": {
+		"aP": 0,
 		"bl": 0,
-		"ft": 16,
+		"dP": 10,
+		"dS": 1,
+		"ft": 4,
 		"ma": 0,
-		"oA": 2,
-		"oAP": "\/build\/assets\/scss\/untitled.css",
+		"oA": 0,
+		"oAP": "/build/assets/scss/_2018/style.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0,
+		"uL": 1
 		},
-	"\/source\/includes\/footer.kit": {
+	"/source/includes/footer.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/build\/includes\/footer.html",
+		"oAP": "/build/includes/footer.html",
 		"oF": 0
 		},
-	"\/source\/includes\/header.kit": {
+	"/source/includes/header.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/build\/includes\/header.html",
+		"oAP": "/build/includes/header.html",
 		"oF": 0
 		},
-	"\/source\/index.kit": {
+	"/source/index.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "/build/index.html",
+		"oF": 0
+		},
+	"/source/robleto2017.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/build\/index.html",
+		"oAP": "/build/robleto2017.html",
+		"oF": 0
+		},
+	"/source/robleto2018.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "/build/robleto2018.html",
 		"oF": 0
 		}
 	},
@@ -416,148 +555,102 @@
 	"displayValue": "robletofamily",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-confusedBaby",
-	"iconImageWasSetByUser": 0
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 566775827.90617704
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -569,7 +662,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -581,7 +695,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -617,53 +749,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -672,6 +797,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 1,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -1029,6 +1155,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -1040,6 +1170,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -1085,6 +1219,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -1103,10 +1241,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -1305,9 +1439,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -1661,6 +1799,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -1689,6 +1831,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -1696,6 +1842,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -1751,7 +1901,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -1811,7 +1961,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -2206,7 +2356,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -2225,7 +2374,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
@@ -2257,19 +2406,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -2325,7 +2474,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -2354,7 +2503,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -2378,36 +2527,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 2,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2415,11 +2598,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -2443,6 +2626,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -2459,7 +2646,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -2467,20 +2662,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -2495,6 +2702,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -2503,12 +2718,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -2519,11 +2742,19 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -2535,23 +2766,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2563,13 +2822,21 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "\/build"
+	"websiteRelativeRoot": "/build"
 	},
 "settingsFileVersion": "3"
 }
