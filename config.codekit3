@@ -509,6 +509,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/source/assets/img/_2018/seesaw.png": {
+		"ft": 32768,
+		"iS": 877711,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/seesaw.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/source/assets/img/_2018/snowflake.gif": {
 		"ft": 4194304,
 		"iS": 1180,
@@ -548,6 +559,39 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/_2018/towel.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/towel.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/assets/img/_2018/towel2.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/towel2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/assets/img/_2018/towel3.png": {
+		"ft": 32768,
+		"iS": 223700,
+		"oA": 0,
+		"oAP": "/build/assets/img/_2018/towel3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"/source/assets/img/_2018/yuck.jpg": {

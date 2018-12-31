@@ -706,25 +706,23 @@ body {
 		grid-column: full-start / full-end; 
 	}
 
+
+
 	.num-travel {
 		grid-column: full-start / full-end; 
+		display: grid;
+		grid-template-columns: [full-start] 1fr [left-center] 1fr [right-center] 1fr [full-end];
+		grid-template-rows: [row-start] 150px [first-line] 1fr [second-line] 1fr [third-line]  1fr  [row-end];
+		grid-gap: 2rem;
 		background-color: $bg-primary;
 		padding: 3rem;
 
-		img {
+		img.photo {
 			width: 100%;
 			max-width: 300px;
+			box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
+			border: solid 8px #fff;
 		}
-		h3 {
-			color: $bold-primary;
-			font-family: $serif-font;
-			font-size: 1400%;
-			font-weight: 300;
-			letter-spacing: -0.5rem;
-			padding: 0;
-			margin: 0;
-		}
-
 
 		.sub-box h3 {
 			@include sub-head-style;
@@ -733,6 +731,49 @@ body {
 			display: block;
 			text-align: center;
 		}
+
+		.sub-box.cities {
+			grid-row-start: row-start;
+			grid-row-end: row-end;
+		}
+
+
+		.sub-box.bermuda {
+			grid-column: 2 / 3;
+			grid-row: 1 / 2;
+		}
+		.sub-box.paris {
+			grid-column: 3 / -1;
+			grid-row: 6 / 7;
+		}
+		.sub-box.west-coast {
+			grid-column: 2 / 3;
+			grid-row: 7 / -1;
+		}
+
+
+		img[src*="bermuda"] {
+  			transform: rotate(10deg);
+		}
+
+		img[src*="furious"] {
+  			transform: rotate(-10deg);
+  			min-width: 120%;
+		}
+
+
+
+
+		h3.huge-num {
+			color: $bold-primary;
+			font-family: $serif-font;
+			font-size: 1600%;
+			font-weight: 300;
+			letter-spacing: -0.5rem;
+			padding: 0;
+			margin: 0 0 -4rem 0;
+		}
+
 		li {
 			padding-left: 0;
 			list-style: none;
