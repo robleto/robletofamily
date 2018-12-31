@@ -712,7 +712,7 @@ body {
 		grid-column: full-start / full-end; 
 		display: grid;
 		grid-template-columns: [full-start] 2fr 1fr 1fr 1fr 1fr 1fr [full-end];
-		grid-template-rows: [row-start] 290px [bar-2]  220px [bar-3] 260px [bar-4] 180px [bar-5] 1fr  [bar-6] 1fr  [bar-7] 1fr  [row-end];
+		grid-template-rows: [row-start] 170px [bar-2]  220px [bar-3] 260px [bar-4] 180px [bar-5] 1fr  [bar-6] 1fr  [bar-7] 1fr  [row-end];
 		grid-gap: 2.25rem;
 		background-color: $bg-primary;
 		padding: 3rem;
@@ -743,7 +743,7 @@ body {
 			grid-row: 1 / 2;
 		}
 		.sub-box.paris {
-			grid-column: 5 / 7;
+			grid-column: 4 / 7;
 			grid-row: 3 / 4;
 		}
 		.sub-box.west-coast {
@@ -780,7 +780,7 @@ body {
 			grid-column: 4 / 5;
 			grid-row: 1 / 2;
 			justify-self: start;
-			align-self: end;
+			align-self: start;
 			text-align: left;
 			z-index: 300;
 			img{
@@ -801,7 +801,7 @@ body {
 		}
 
 		.sub-box.img-seesaw {
-			grid-column: 3 / 5;
+			grid-column: 2 / 4;
 			grid-row: 3 / 4;
 			justify-self: end;
 			text-align: center;
