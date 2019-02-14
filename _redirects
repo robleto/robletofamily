@@ -1,0 +1,6 @@
+# Redirect domain aliases to primary domain
+http://ginellerobleto.com/* http://robletofamily.com/:splat 301!
+http://kayleerobleto.com/* http://robletofamily.com/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+http://festive-wozniak-6c9d31.netlify.com/* http://robletofamily.com/:splat 301!
