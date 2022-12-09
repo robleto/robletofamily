@@ -3,9 +3,9 @@ A digital version of the annual Christmas Card insert from the Robleto family
 
 ![gitback](https://cdn.dribbble.com/userupload/4107704/file/original-315fe3e938301ea9447a72f3651e792d.png?compress=1&resize=1024x871)
 
-Hello there 👋, thanks for visiting my the Robleto Family website.
+Hello there 👋, thanks for visiting my Robleto Family website.
 
-I’m Greg and my wife Selena and I sent out a Christmas Card insert every year. It's a folded printed update on the past year that is inserted into each card we send.  Unfortunately we can't reach everyone by mail, we just don't have enough stamps. So, I am recreating the InDesign designed insert as a single-page website so we can extend the reach of sharing our past year. 
+My wife Selena and I (Greg) sent out a Christmas Card insert every year. It's a folded printed update on the past year that is inserted into each card we send.  Unfortunately we can't reach everyone by mail, we just don't have enough stamps. So, I am recreating the InDesign designed insert as a single-page website so we can extend the reach of sharing our past year.
 
 
 . . .
