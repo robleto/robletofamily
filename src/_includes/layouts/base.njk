@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" id="{{ pageID }}">
+<head>
+  {% include "partials/_meta.njk" %}
+
+   <!-- I wrote this one -->
+  <link rel="stylesheet" href="/css/style.css">
+
+  <title>{{title}} | Robleto Family </title>
+  <meta name="description" content="{{ pagedesc }}">
+
+</head>
+<body id="{{ pageID }}">
+
+  {{ content | safe }}
+
+
+  {% include "partials/_scripts.njk" %}
+</body>
+</html>

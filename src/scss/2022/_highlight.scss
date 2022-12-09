@@ -1,0 +1,218 @@
+
+/*----------------------------------------
+2022 Card Highlight
+----------------------------------------*/
+
+section.panel.highlight {
+    width: 100vw;
+
+    div.highlight-container {
+        max-width: $lg;
+        margin: 0 auto;
+        scroll-snap-align: start;
+        padding: 5vmin;
+        position: relative;
+        grid-gap: 1vmin 3vmin;
+        grid-template-columns: [first] 1fr [end];
+        @media (min-width: $md) { 
+            display: grid;
+            grid-template-columns: [first] repeat(11, 1fr) [end];
+            grid-template-rows: [first] 8vmin repeat(9, auto) [end];
+            grid-auto-rows: minmax(20px, auto);
+        }
+        @media (min-width: $xl) { 
+            height: 100vh;
+        }
+
+        h2 {
+            color: $red;
+            font-weight: bold;
+            align-self: center;
+            @media (min-width: $md) {
+                grid-column: 1 / 6;
+                grid-row: 1 / 2;
+                font-size: 4.5vmin;
+            }
+        }
+        p.lede {
+            @media (min-width: $md) {
+                grid-column: 1 / 6;
+                grid-row: 2 / 4;
+                font-size: 1.8vmin;
+            }
+        }
+        img.middle-east {
+            grid-column: 1 / 12;
+            grid-row: 4 / 10;
+            z-index: -999;
+        }
+
+        aside {
+            background-color: $light-gray;
+            border-top: solid 0.5vmin $dark-gray;
+            margin: 5vmin 0;
+            padding: 2.5vmin;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 5vmin auto;
+            grid-gap: .5vmin 1.5rem;
+            @media (min-width: $md) { 
+                padding: 1.5vmin;
+                margin: 0;
+                grid-template-rows: 2vmin auto;
+            }
+
+            h3 {
+                color: $red;
+                line-height: 1.15;
+                grid-column: 1 / 2;
+                grid-row: 1 / 2;
+            }
+            p {
+                padding: 1vmin 0 5vmin 0;
+                grid-column: 1 / 2;
+                grid-row: 2 / 3;
+                align-self: start;
+                @media (min-width: $md) { 
+                    font-size: 1.4vmin;
+                    padding: 0;
+                }
+            }
+            img {
+                object-fit: cover;
+                align-self: start;
+                height: 100%;
+                max-height: 16rem;
+                grid-column: 2 / 3;
+                grid-row: 1 / 3;
+                @media (min-width: $md) { 
+                }
+            }
+        }
+        /* Bahrain */
+        aside.bahrain {
+            @media (min-width: $md) { 
+                grid-column: 1 / 6;
+                grid-row: 3 / 5;
+            }
+        }
+        /* Abu Dhabi */
+        aside.abu-dhabi {
+            grid-template-rows: 10vmin auto;
+            @media (min-width: $md) { 
+                grid-column: 1 / 4;
+                grid-row: 5 / 9;
+                grid-template-rows: 2.5vmin auto;
+            }
+            h3 {
+                grid-row: 1 / 2;
+                @media (min-width: $md) { 
+                    grid-column-end: -1;
+                }
+            }
+            p {
+                grid-row: 2 / 3;
+                @media (min-width: $md) { 
+                    grid-column-end: -1;
+                }
+            }
+            img.etihad-towers {
+                grid-row: 1 / 3;
+                @media (min-width: $md) { 
+                    grid-column: 1 / -1;
+                    grid-row: 3 / 3;
+                }
+            }
+            img.grand-mosque {
+                grid-row: 3 / 4;
+                @media (min-width: $md) { 
+                    grid-column: 1 / -1;
+                    grid-row: 4/ 4;
+                }
+            }
+        }
+
+        /* Dubai */
+        aside.dubai {
+            @media (min-width: $md) { 
+                grid-column: 6 / 9;
+                grid-row: 1 / 4;
+            }
+            h3, p {
+                grid-column-end: -1;
+            }
+            img.fountains {
+                grid-column: 1 / 2;
+                grid-row: 3 / 4;
+            }
+            img.souk {
+                grid-column: 2 / 3;
+                grid-row: 3 / 4;
+            }
+        }
+        /* Muscat */
+        aside.muscat {
+            @media (min-width: $md) { 
+                grid-column: 9 / 12;
+                grid-row: 2 / 3;
+            }
+            h3, p {
+                grid-column-end: -1;
+            }
+        }
+        /* Wadi Shab */
+        aside.wadi-shab {
+            @media (min-width: $md) { 
+                grid-column: 9 / 12;
+                grid-row: 3 / 6;
+            }
+            h3, p {
+                grid-column-end: -1;
+            }
+            img.swimming {
+                grid-column: 1 / 2;
+                grid-row: 3 / 4;
+            }
+            img.hiking {
+                grid-column: 2 / 3;
+                grid-row: 3 / 4;
+            }
+        }
+        /* Desert Nights */
+        aside.desert-nights {
+            grid-template-rows: 10vmin auto;
+            @media (min-width: $md) { 
+                grid-column: 8 / 12;
+                grid-row: 8 / 9;
+                grid-template-rows: 5vmin auto;
+            }
+            p {
+                grid-row: 2 / 4;
+            }
+            img.camels {
+                grid-row: 1 / 3;
+            }
+            img.camping {
+                grid-row: 3 / 4;
+            }
+        }
+        /* Desert Nights */
+        aside.jabal-shams {
+            grid-template-rows: 10vmin auto;
+            @media (min-width: $md) { 
+                grid-column: 4 / 8;
+                grid-row: 7 / 9;
+                grid-template-rows: 5vmin auto;
+            }
+            p {
+                grid-row: 2 / 4;
+            }
+            img.path {
+                grid-row: 1 / 3;
+            }
+            img.pool {
+                grid-row: 3 / 4;
+            }
+        }
+    }   
+}

@@ -1,0 +1,132 @@
+
+/*----------------------------------------
+General Styles
+----------------------------------------*/
+:root {
+	margin: 0;
+	padding: 0;
+  font-family: sans-serif;
+	font-weight: 400;
+  font-size: 10px;
+	line-height: 1.3;
+}
+
+
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
+	line-height: 1.3;
+  margin: 0;
+  padding: 0;
+}
+p, li, small {
+  margin: 0;
+  padding: 0;
+}
+
+.thin {
+	font-weight: 300;
+}
+.semi-bold {
+	font-weight: 600;
+}
+strong, b, .bold {
+	font-weight: 700;
+}
+dfn, cite, em, i {
+  	font-style: italic;
+}
+
+@mixin fluid($size, $lh){
+  font-size: clamp(8rem, calc($size + .25vw), 12rem);
+}
+
+
+// p {
+// 	$p-size: 1.6rem;
+// 	$p-lh: 1.5;
+//   @include fluid($p-size, $p-lh);
+//   //width: clamp(45ch, 100%, 75ch);
+// }
+// li {
+// 	$li-size: 1.6vw;
+// 	$li-lh: 1.3;
+//   @include fluid($li-size, $li-lh);
+// }
+// small {
+// 	$p-size: 1.2rem;
+// 	$p-lh: 1.3;
+//   @include fluid($p-size, $p-lh);
+//   //width: clamp(45ch, 100%, 75ch);
+// }
+
+// h1 {
+//   $h1-size: 8rem;
+//   $h1-lh: 0.85;
+//   @include fluid($h1-size, $h1-lh);
+//   @media (min-width: 800px) {
+//     $h1-size: 19rem;
+//     $h1-lh: 0.85;
+//     @include fluid($h1-size, $h1-lh);
+//   }
+// }
+// h2 {
+//   $h2-size: 3.5rem;
+//   $h2-lh: 1.15;
+//   @include fluid($h2-size, $h2-lh);
+//   @media (min-width: 865px) {
+//     $h2-size: 5rem;
+//     $h2-lh: 1.15;
+//     @include fluid($h2-size, $h2-lh);
+//   }
+// }
+// h3 {
+//   $h3-size: 2.0rem;
+//   $h3-lh: 1;
+//   @include fluid($h3-size, $h3-lh);
+// }
+// h4 {
+//   $h4-size: 2.2rem;
+//   $h4-lh: 1.4;
+//   @include fluid($h4-size, $h4-lh)
+// }
+// h5 {
+//   $h5-size: 1.8rem;
+//   $h5-lh: 1.3;
+//   @include fluid($h5-size, $h5-lh)
+// }
+// h6 {
+//   $h6-size: 1.6rem;
+//   $h6-lh: 1.3;
+//   @include fluid($h6-size, $h6-lh)
+// }
+a, a:focus, a:hover, a:active {
+	text-decoration: none;
+	color: inherit;
+	outline: none;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+}
+ul {
+  list-style: none;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}

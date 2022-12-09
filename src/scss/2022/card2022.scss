@@ -1,0 +1,49 @@
+
+@import '../base';
+
+$red: #9a0a0e;
+$white: #fefefe;
+$gray: #58585a;
+$light-gray: #efefef;
+$dark-gray: #231f20;
+
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+
+@mixin section-grid($cols: 12, $rows: 12) {
+    max-width: $lg;
+    margin: 0 auto;
+    scroll-snap-align: start;
+    display: grid;
+    grid-template-columns: [first] repeat($cols, 1fr) [end];
+    grid-template-rows: [first] 8vmin repeat($rows, 1fr) [end];
+    grid-auto-rows: minmax(20px, auto);
+    grid-gap: 5vmin 10vmin;
+}
+
+
+html {
+//   min-height: 500vh;
+//   scroll-snap-points-y: repeat(100vh);
+//   scroll-snap-type: y mandatory;
+}
+
+body {
+    font-family: proxima-nova, sans-serif;
+}
+hr {
+    max-width: $lg;
+    margin-top: 5vmin;
+    border: none;
+    border-bottom: dotted 5px #efefef;
+}
+
+@import 'front';
+@import 'favs';
+@import 'memorial';
+@import 'highlight';
+@import 'matters';

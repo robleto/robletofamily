@@ -1,4 +1,5 @@
-# Compiled source #
-###################
-config.codekit3
-build/*
+# dependencies installed by npm
+node_modules
+
+# build artefacts
+public
