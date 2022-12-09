@@ -1,0 +1,173 @@
+
+/*----------------------------------------
+2022 Card Favs
+----------------------------------------*/
+section.panel.favs {
+    width: 100vw;
+
+        div.favs-container {
+        max-width: $lg;
+        margin: 0 auto;
+        scroll-snap-align: start;
+        display: grid;
+        grid-template-columns: [first] repeat(2, auto) [end];
+        padding: 5vmin;
+        grid-gap: 3vmin 5vmin;
+        @media (min-width: $md) { 
+            grid-gap: 3vmin 5vmin;
+        }
+
+        h2 {
+            color: $red;
+            font-weight: bold;
+            grid-column: 1 / -1;
+            grid-row: 1 / 2;
+            font-size: 5vmin;
+        }
+
+        aside{
+            grid-column: span 2;
+            //max-width: 80vmin;
+            @media (min-width: $md) { 
+                grid-column: span 1;
+            }
+            
+            display: grid;
+            grid-template-columns: [first] 1.5fr 1fr 1fr 1fr 1.5fr [end];
+            grid-template-rows: [first] 4vmin auto [end];
+            grid-gap: .5rem;
+
+            h4 {
+                grid-column: 1 / -1;
+                grid-row: 1 / 2;
+                text-transform: uppercase;
+                font-size: 2vmin;
+                color: $gray;
+                border-bottom: solid .25rem lighten($gray, 50%);
+            }
+            p {
+                grid-column: 1 / 5;
+                grid-row: 2 / 3;
+                font-size: 1.6rem;
+                justify-self: start;
+                align-self: start;
+                @media (min-width: $md) {   
+                    font-size: 1.6vmin;
+                    line-height: 1.3;
+                }
+            }
+            img {
+                grid-column: 5 / -1;
+                grid-row: 1 / 3;
+            }
+            em {
+                color: $red;
+                font-weight: bold;
+                font-style: normal;
+
+            }
+            small {
+                color: $red;
+                font-weight: bold;
+                font-size: 2vmin;
+                line-height: 1;
+                @media (min-width: $md) {   
+                    font-size: 1.5vmin;
+                }
+            }
+        }
+        aside.fav-games {
+            img {
+                grid-row: 1 / 3;
+                @media (min-width: $md) {    
+                    grid-row: 2 / 3;
+                    margin-top: -2vmin;
+                }
+            }
+        }
+        aside.fav-movies {
+            h4 {
+                grid-column: 3 / -1;
+            }
+            p {
+                grid-column: 3 / -1;
+            }
+            img {
+                grid-column: 1 / 3;
+                grid-row: 1 / 3;
+            }
+        }
+        aside.fav-books {
+            h4, p {
+                grid-column: 2 / -1;
+                padding: 0 2rem;
+            }
+            img.esperanza-rising {
+                transform: rotate(5deg);
+                grid-column: 1 / 2;
+                grid-row: 2 / 3;
+                margin-top: 15vmin;
+                @media (min-width: $md) {  
+                    margin-top: 10vmin;
+                }
+            }
+            img.carrie-soto {
+                transform: rotate(-5deg);
+                grid-column: 1 / 2;
+                grid-row: 1 / 3;
+            }
+        }
+        aside.fav-tv {
+            p {
+                padding-right: 4vmin;
+            }
+            img.star {
+                margin-left: -8vmin;
+                margin-top: 14vmin;
+                @media (min-width: $md) {  
+                    margin-left: -4vmin;
+                }
+            }
+        }
+        aside.fav-live {
+            grid-column: 1 / -1;
+            grid-template-columns: [first] 1.5fr 1fr 1fr 1fr 1.5fr [end];
+            p {
+                padding-right: 4vmin;
+                grid-column: 1 / 4;
+            }
+            img.billie-eilish {
+                grid-column: 5 / 6;
+                grid-row: 1 / 2;
+                max-height: 15vmin;
+                justify-self: end;
+            }
+            img.katelyn-tarver {
+                transform: rotate(-5deg);
+                z-index: 9;
+                grid-column: 4 / 6;
+                grid-row: 1 / 3;
+                max-height: 25vmin;
+            }
+            img.six {
+                grid-column: 2 / 4;
+                grid-row: 2 / -1;
+                z-index: 999;
+                align-self: end;
+                margin-bottom: -3vmin;
+                max-height: 15vmin;
+            }
+            small {
+                grid-column: 5 / 6;
+                grid-row: 2 / 3;
+                z-index: 99;
+                text-align: center;
+                @media (min-width: $md) {  
+                    align-self: end;
+                    margin-left: 10vmin;
+                }
+            }
+        }
+    }
+
+}

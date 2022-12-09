@@ -1,0 +1,101 @@
+
+/*----------------------------------------
+2022 Card Front
+----------------------------------------*/
+section.panel.front {
+    height: 100vh;
+    width: 100vw;
+    scroll-snap-align: start;
+    overflow: hidden;
+    background: linear-gradient($red, darken($red, 20%));
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .palace-steps {
+        aspect-ratio: 4 / 5;
+        background: transparent url("/img/2022/front/card-cover.jpg") center center no-repeat;
+        background-size: cover;
+        transform: rotate(-5deg);
+        display: grid;
+        grid-template-columns: [first] 20% 80% [end];
+        grid-template-rows: [first] 25% 40% 35% [end];
+        grid-gap: 1vmin;
+        margin-left: -5vmin;
+        width: 100vmin;
+        border: solid 10px #fff;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        z-index: 9;
+        @media (min-width: $lg) { 
+            width: 60vmin;
+        }
+
+        h1 {
+        font-family: shelby, cursive;
+        color: $white;
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+        justify-self: center;
+        align-self: center;
+        white-space: nowrap;
+        font-size: 20vmin;
+        text-shadow: $red .5vmin .5vmin;
+        text-align: center;
+        @media (min-width: $lg) { 
+            font-size: 14vmin;
+        }
+        }
+
+        h2 {
+        grid-column: 1 / -1;
+        grid-row: 3 / -1;
+        color: $red;
+        justify-self: center;
+        align-self: center;
+        white-space: nowrap;
+        margin-bottom: 4rem;
+        font-size: 8vmin;
+        @media (min-width: $lg) { 
+            grid-column: 2 / -1;
+            font-size: 4.5vmin;
+            line-height: 1.15;
+        }
+        }
+
+        h3 {
+        grid-column: 1 / -1;
+        grid-row: 3 / -1;
+        color: $red;
+        font-weight: 400;
+        justify-self: center;
+        align-self: center;
+        margin-top: 10rem;
+        font-size: 5vmin;
+        @media (min-width: $lg) { 
+            grid-column: 2 / -1;
+            font-size: 2.5vmin;
+            line-height: 1.15;
+            margin-top: 6rem;
+        }
+        }
+        
+    }
+
+    .pointsettia {
+    justify-self: end;
+    align-self: end;
+    width: 60vmin;
+    z-index: 99;
+    position: absolute;
+    bottom: -25vmin;
+    left: -25vmin;
+    @media (min-width: $lg) { 
+        width: 40vmin;
+        bottom: -5vmin;
+        left: -20vmin;
+        }
+    }
+}
+

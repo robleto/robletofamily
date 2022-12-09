@@ -1,0 +1,166 @@
+
+/*----------------------------------------
+2022 Card Matters
+----------------------------------------*/
+section.panel.matters {
+    width: 100vw;
+
+    div.matters-container {
+        max-width: $lg;
+        margin: 0 auto;
+        scroll-snap-align: start;
+        padding: 5vmin;
+        position: relative;
+        grid-template-columns: [first] 1fr [end];
+        display: flex;
+        flex-direction: column;
+        @media (min-width: $md) { 
+            display: grid;
+            grid-template-columns: [first] repeat(11, 1fr) [end];
+            grid-template-rows: [first] 8vmin repeat(6, auto) [end];
+            grid-auto-rows: minmax(20px, auto);
+            grid-gap: 1vmin;    
+        }
+        @media (min-width: $xl) { 
+            height: 100vh;
+        }
+
+        h2 {
+            color: $red;
+            font-weight: bold;
+            align-self: center;
+            @media (min-width: $md) {
+                grid-column: 1 / 6;
+                grid-row: 1 / 2;
+                font-size: 4vmin;
+            }
+        }
+        p.lede {
+            @media (min-width: $md) {
+                grid-column: 1 / 4;
+                grid-row: 2 / 3;
+                font-size: 1.8vmin;
+            }
+            @media (min-width: $xl) {
+                font-size: 1.6vmin;
+            }
+            span {
+                font-size: 130%;
+                font-weight: bold;
+                display: block;
+            }
+        }
+        img {
+            border: solid 1vmin $white; 
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        }
+
+        .img-batch {
+
+                display: grid; 
+                padding: 0 10vmin;
+            
+                img:nth-child(1) {
+                    transform: rotate(-5deg);
+                    z-index: 2;
+                    align-self: end;
+                    grid-area: img1;
+                }
+                img:nth-child(2) {
+                    transform: rotate(-2deg);
+                    z-index: 4;
+                    align-self: end;
+                    grid-area: img2;
+                }
+                img:nth-child(3) {
+                    transform: rotate(5deg);
+                    z-index: 1;
+                    align-self: start;
+                    grid-area: img3;
+                }
+                img:nth-child(4) {
+                    transform: rotate(-2deg);
+                    z-index: 3;
+                    align-self: start;
+                    grid-area: img4;
+                }
+                img:nth-child(5) {
+                    transform: rotate(-2deg);
+                    z-index: -1;
+                    align-self: start;
+                    grid-area: img5;
+                }
+            @media (min-width: $md) { 
+                grid-auto-rows: minmax(4vmin, 8vmin);
+                grid-column: 4 / 7;
+                grid-row: 2 / 4;
+            }
+        }
+
+        .batch1 {
+            z-index: 1;
+            margin-top: 3vmin;
+            align-self: center;
+            grid-template-areas:  "img1 img2"
+                                  "img3 img3";
+            img.family {
+                margin-top: -5vmin;
+            }
+            @media (min-width: $md) { 
+                grid-column: 4 / 7;
+                grid-row: 2/3;
+            }
+        }
+        .batch2 {
+            grid-column: 1 / 4;
+            grid-row: 3 / 4;
+            z-index: 2;
+            align-self: center;
+            grid-template-areas:  "img1 img2"
+                                  "img3 img4";
+        }
+        .batch3 {
+            grid-column: 4 / 7;
+            grid-row: 3 / 4;
+            z-index: 3;
+            align-self: start;
+            grid-template-areas:  "img1 img2"
+                                  "img1 img3"
+                                  "img4 img5";
+            img.dumplings {
+                margin-top: -2vmin;
+            }
+        }
+
+        .col2 {
+            grid-column: 7 / 10;
+            grid-row: 1 / 4;
+            margin: 0 2.5vmin;
+            padding: 0 2.5vmin;
+            border-left: solid 1px $light-gray;
+            border-right: solid 1px $light-gray;
+            display: flex;
+            flex-direction: column;
+            row-gap: 2vmin;
+            .img-batch.batch4 {
+                grid-auto-rows: auto;
+                grid-template-areas:  "img1 img2";
+            }
+        }
+        .col3 {
+            grid-column: 10 / 12;
+            grid-row: 1 / 4;
+            display: flex;
+            flex-direction: column;
+            .img-batch.batch5 {
+                grid-auto-rows: auto;
+                grid-template-areas:  "img1"
+                                      "img2";
+            }
+            p {
+                margin-top: 3vmin;
+            }
+        }
+
+    }   
+}
