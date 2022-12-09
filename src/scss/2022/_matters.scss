@@ -95,9 +95,9 @@ section.panel.matters {
                 grid-auto-rows: minmax(4vmin, 8vmin);
                 grid-column: 4 / 7;
                 grid-row: 2 / 4;
+                padding: 0;
             }
         }
-
         .batch1 {
             z-index: 1;
             margin-top: 3vmin;
