@@ -1,38 +1,34 @@
-# robletofamily
-Annual updates on the Robleto family
+# Robleto Family
+A digital version of the annual Christmas Card insert from the Robleto family
 
-## Getting Started
+![gitback](https://cdn.dribbble.com/userupload/4107704/file/original-315fe3e938301ea9447a72f3651e792d.png?compress=1&resize=1024x871)
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Hello there 👋, thanks for visiting my the Robleto Family website.
 
-
-### Installing
-
-This site is HTML, CSS and Javascript and has no requirements for installation of a virtual environment. This site is build using Codekit3 for linting, conversion and compression.
-
-## Deployment
-
-This site is hosted by Dreamhost. Basic setup is all that was required.
-
-## Built Using
-
-* [Photoshop](http:www.adobe.com/products/photoshop.html) - For creating the background and portfolio images
-* [Sublime](https://www.sublimetext.com/) - First time trying this IDE for coding and Markdown writing of this Readme
-* [Transmit](https://panic.com/transmit/) - Used for FTPing up to the Dreamhost server
+I’m Greg and my wife Selena and I sent out a Christmas Card insert every year. It's a folded printed update on the past year that is inserted into each card we send.  Unfortunately we can't reach everyone by mail, we just don't have enough stamps. So, I am recreating the InDesign designed insert as a single-page website so we can extend the reach of sharing our past year. 
 
 
-## Authors
+. . .
 
-* **Greg Robleto** - *Initial work* - [github.com/robleto/robletofamily](https://github.com/robleto/robletofamily)
 
-See also the list of [contributors](https://github.com/robleto/fastcon/contributors) who participated in this project.
+## Code and Tools
 
-## License
+This site was written with
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+<img src="https://img.icons8.com/color/64/html-5.png" width="42px" style="filter: saturate(0);"/>&nbsp;&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/64/css3.png" width="42px" style="filter: saturate(0);"/>&nbsp;&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/64/sass.png" width="42px" style="filter: saturate(0);"/>&nbsp;&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/64/javascript.png" width="42px" style="filter: saturate(0);"/>&nbsp;&nbsp;&nbsp;
+<img src="https://v1.screenshot.11ty.dev/https%3A%2F%2Feleventonia.decamp.dev/small/1:1/" width="42px" style="filter: saturate(0);"/>&nbsp;&nbsp;&nbsp;
+<img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/512/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png" width="42px" style="filter: saturate(0);"/>&nbsp;&nbsp;&nbsp;
 
-## Acknowledgments
+These tools were used to build this site
 
-* Hat tip to anyone who's code was used
-* Background image comes from Unsplash
-* Inspiration comes from purchased Themeforest template
+<img src="https://img.icons8.com/color/344/mac-os--v1.png" width="42px" style="filter: saturate(0);"/>&nbsp;&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/64/figma.png" width="42px" style="filter: saturate(0);"/>&nbsp;&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/64/visual-studio-code-2019.png" width="42px" style="filter: saturate(0);"/>&nbsp;&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/64/adobe-indesign.png" width="42px" style="filter: saturate(0);"/>&nbsp;&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/64/adobe-photoshop.png" width="42px" style="filter: saturate(0);"/>&nbsp;&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/64/adobe-illustrator.png" width="42px" style="filter: saturate(0);"/>&nbsp;&nbsp;&nbsp;
+
+. . .
