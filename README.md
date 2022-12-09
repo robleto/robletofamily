@@ -19,7 +19,7 @@ This site was written with
 <img src="https://img.icons8.com/color/64/css3.png" width="42px" style="filter: saturate(0);"/>&nbsp;&nbsp;&nbsp;
 <img src="https://img.icons8.com/color/64/sass.png" width="42px" style="filter: saturate(0);"/>&nbsp;&nbsp;&nbsp;
 <img src="https://img.icons8.com/color/64/javascript.png" width="42px" style="filter: saturate(0);"/>&nbsp;&nbsp;&nbsp;
-<img src="https://v1.screenshot.11ty.dev/https%3A%2F%2Feleventonia.decamp.dev/small/1:1/" width="42px" style="filter: saturate(0);"/>&nbsp;&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/11ty/11ty-logo/master/img/logo-400x400.png" width="42px" style="filter: saturate(0);"/>&nbsp;&nbsp;&nbsp;
 <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/512/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png" width="42px" style="filter: saturate(0);"/>&nbsp;&nbsp;&nbsp;
 
 These tools were used to build this site
